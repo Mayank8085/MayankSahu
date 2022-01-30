@@ -30,10 +30,6 @@ library.add(
   faGlobe, 
   faLocationArrow,
   faPhoneAlt
-
-  
- 
-  
 );
 
 //implenting routing for same page element

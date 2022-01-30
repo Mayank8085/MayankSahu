@@ -11,7 +11,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="col-12 col-md-6 my-4 px-5">
-      <div className="card bg-dark">
+      <div className="neu-div p-3 card bg-dark">
         {/* <img src={ProjectImage} className="card-img-top h-25 " alt="..." /> */}
 
         <div className="card-body text-start">

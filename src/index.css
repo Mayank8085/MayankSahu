@@ -1,6 +1,9 @@
-
-body {
+* {
+  box-sizing: border-box;
+}
+html, body {
   margin: 0;
+  padding: 0;
   font-family:  'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,22 +12,70 @@ body {
   background-color: #282A36;
   color: #F8F8F2;
   max-width: 100%;
-  box-sizing: border-box;
   
 }
 a{
   text-decoration: none;
-  color: #F8F8F2;
-}
-nav-link{
-  color: #F8F8F2;
-}
-link{
-  text-decoration: none;
-  color: #F8F8F2;
+  color: inherit;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* neumorphism button */
+.neu-button{
+  position: relative;
+  display: inline-block;
+    background: #212529;
+  box-shadow: inset -5px -5px 16px #0d0f10,
+              inset 5px 5px 16px #353b42;
+}
+
+.neu-div{
+  border-radius: 30px;
+  background: #212529;
+  box-shadow: inset 5px 5px 8px #15181a,
+              inset -5px -5px 8px #2d3238;
+}
+
+/* //hover changes */
+.neu-button:hover {
+  cursor: pointer;
+  /* border-radius: 50%; */
+/* background: #212529; */
+box-shadow: inset 5px 5px 16px #0d0f10,
+            inset -5px -5px 16px #353b42;
+
+}
+
+/* .neu-button {
+  border-radius: 50%;
+  
+
+} */
+
+
+
+
+

@@ -7,8 +7,8 @@ const Skillcard = ({
 }) => {
   return (
     <div className="col-12 col-md-4 mt-4">
-      <div className="card">
-        <div className="card-body text-center bg-dark">
+      <div className=" card bg-dark neu-div p-2">
+        <div className=" card-body text-center ">
           <h5 className="card-title mb-3">{title}</h5>
           <p className="card-text mb-3 ">{body}</p>
           {skills.map((skill) => (
