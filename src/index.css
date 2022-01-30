@@ -45,16 +45,13 @@ textarea {
 
 /* neumorphism button */
 .neu-button{
-  position: relative;
-  display: inline-block;
-    background: #212529;
-  box-shadow: inset -5px -5px 16px #0d0f10,
-              inset 5px 5px 16px #353b42;
+  box-shadow: inset -5px -5px 8px #0d0f10,
+              inset 5px 5px 8px #353b42;
 }
 .neu-button:hover {
   cursor: pointer;
-box-shadow: inset 5px 5px 16px #0d0f10,
-            inset -5px -5px 16px #353b42;
+box-shadow: inset 5px 5px 8px #0d0f10,
+            inset -5px -5px 8px #353b42;
 
 }
 
@@ -75,11 +72,15 @@ box-shadow: inset 5px 5px 16px #0d0f10,
 
 .neu-concave{
   /* border-radius: 50%; */
-  background: #212529;
-  box-shadow: inset 5px 5px 16px #15181a,
-              inset -5px -5px 16px #2d3238;
+  box-shadow: inset 5px 5px 8px #15181a,
+  inset -5px -5px 8px #2d3238;
 
 
+}
+
+.neu-concave:hover{
+  box-shadow: inset -5px -5px 8px #15181a,
+  inset 5px 5px 8px #2d3238;
 }
 
 

@@ -7,8 +7,7 @@ const Header = () => {
         <nav className=" navbar navbar-expand-lg navbar-dark  mx-auto">
           <div className="container-fluid">
             <a className="navbar-brand fs-2 fw-bold me-md-5 text-info" href="/">
-
-            &lt; Mayank Sahu /&gt; 
+              &lt; Mayank Sahu /&gt;
             </a>
             <button
               className="navbar-toggler"
@@ -61,19 +60,4 @@ const Header = () => {
 
 export default Header;
 
-//     <div className=" d-flex flex-wrap flex-row mt-3 fw-bold fs-4 px-5  ">
-//   <div className="flex text-info fs-3 me-5">Mayank Sahu</div>
 
-//   <div
-//     className="flex-fill navbar-collapse" id="navbarSupportedContent"
-
-//   >
-//     <ul className="navbar-nav d-flex flex-row justify-content-evenly ">
-//       <li className="nav-item"> Home</li>
-//       <li>About</li>
-//       <li>Projects</li>
-//       <li>Contact</li>
-//     </ul>
-
-//   </div>
-// </div>

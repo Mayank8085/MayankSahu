@@ -22,9 +22,10 @@ const ProjectCard = ({
             <div className="col-md-1 col-2 text-end ">
               <a href={website} target="_blank" rel="noopener noreferrer">
                 <h3 className="card-title  bolder ">
-                <FontAwesomeIcon icon="fa-solid fa-globe" 
-                className="text-info"
-                />
+                  <FontAwesomeIcon
+                    icon="fa-solid fa-globe"
+                    className="text-info"
+                  />
                 </h3>
               </a>
             </div>
@@ -38,7 +39,6 @@ const ProjectCard = ({
                 </h3>
               </a>
             </div>
-
           </div>
 
           <p className="card-text text-light mt-4 fs-6">{description}</p>

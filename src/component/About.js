@@ -10,7 +10,7 @@ const About = () => {
     <>
     <div className="container mt-5 py-5" id="about">
       <div className="row">
-        <div className="col-md-6 col-12">
+        <div className="col-md-6 text-center col-12">
           <img src={aboutImage} alt="about" className="img-fluid" />
         </div>
         <div className="col-md-6 col-12 text-center mt-4">
@@ -23,7 +23,7 @@ const About = () => {
           </p>
           <button
             type="button"
-            class="btn btn-info text-white px-3 text-center rounded border border-light"
+            class="btn text-white px-3 text-center rounded   neu-div"
             onClick={() => {
               window.open(Resume, "_blank");
             }}
