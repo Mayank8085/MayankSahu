@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container-fluid sticky-top bg-dark header">
+    <div className="container-fluid sticky-top bg-dark header ">
       <div className="container ">
         <nav className=" navbar navbar-expand-lg navbar-dark  mx-auto">
           <div className="container-fluid">

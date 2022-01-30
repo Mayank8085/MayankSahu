@@ -14,27 +14,40 @@ const SubHeading =[
 const Home = () => {
   return (
     <>
-    <div className=" container rounded  my-5 px-5 py-4  "
+    <div className="neu-div container rounded   px-5 py-4  "
     id="home"
+    style={{
+      margin: "100px auto",
+    }}
     >
+      <div className="card bg-dark"
       
-      
-      <div className="card"
-      style={{
-        backgroundColor:"#282A36"
-      }}
       >
         <div className="card-body">
           <div className="row ">
           
-          <div className="col-md-6 col-12 text-center ">
-
-            <img
+          <div className="col-md-6 col-12  ">
+            <div
+              className="text-center neu-concave py-md-4 "
+              style={{
+                width: "72%",
+                height: "100%",
+                margin: "auto",
+                borderRadius: "50%",
+              }}
+            
+            >
+              <img
               src={HomePhoto}
-              className="img-fluid rounded-circle "
               alt="mayank"
+              className="img-fluid rounded-circle"
               
             />  
+              
+            </div>
+
+
+           
 
           </div>
           <div className="col-md-6 col-12 ps-5  mt-3 order-md-first">
@@ -43,7 +56,7 @@ const Home = () => {
              Hello I'm
             </h1>
             <h1 className="bolder fs-1 mb-4">Mayank Sahu</h1>
-            <h4 className="bolder mb-4">
+            <h4 className="bolder mb-4 p-3   w-md-100 neu-concave ">
             
             <Typewriter
               options={{

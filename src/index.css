@@ -9,7 +9,7 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282A36;
+  background-color: #15181a;
   color: #F8F8F2;
   max-width: 100%;
   
@@ -51,29 +51,43 @@ textarea {
   box-shadow: inset -5px -5px 16px #0d0f10,
               inset 5px 5px 16px #353b42;
 }
-
-.neu-div{
-  border-radius: 30px;
-  background: #212529;
-  box-shadow: inset 5px 5px 8px #15181a,
-              inset -5px -5px 8px #2d3238;
-}
-
-/* //hover changes */
 .neu-button:hover {
   cursor: pointer;
-  /* border-radius: 50%; */
-/* background: #212529; */
 box-shadow: inset 5px 5px 16px #0d0f10,
             inset -5px -5px 16px #353b42;
 
 }
 
-/* .neu-button {
-  border-radius: 50%;
-  
+.neu-div{
+  border-radius: 30px;
+  background: #212529;
+  box-shadow: inset -5px -5px 8px #15181a,
+              inset 5px 5px 8px #2d3238;
+ 
+}
 
-} */
+.neu-div:hover{
+  box-shadow: inset 5px 5px 8px #15181a,
+  inset -5px -5px 8px #2d3238;
+  
+}
+
+
+.neu-concave{
+  /* border-radius: 50%; */
+  background: #212529;
+  box-shadow: inset 5px 5px 16px #15181a,
+              inset -5px -5px 16px #2d3238;
+
+
+}
+
+
+
+/* //hover changes */
+
+
+
 
 
 
