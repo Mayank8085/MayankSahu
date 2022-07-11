@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import aboutImage from "../assets/images/about.png";
-import Resume from "../assets/file/Resume.pdf";
+import Resume from "../assets/file/MayankSahuResume.pdf";
 import Skills from "./Skills";
 
 const About = () => {
