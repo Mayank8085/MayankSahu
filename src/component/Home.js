@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import HomePhoto from "../assets/images/mayank.jpg";
+import HomePhoto from "../assets/images/mayank.jpeg";
 import Typewriter from "typewriter-effect";
 
 const SubHeading = [
@@ -9,7 +9,6 @@ const SubHeading = [
   "MERN Stack Developer",
   "React Developer",
 ];
-
 const Home = () => {
   return (
     <>
